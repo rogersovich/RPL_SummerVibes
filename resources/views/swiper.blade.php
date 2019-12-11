@@ -274,8 +274,8 @@
             </div>
           </div>
         </div>
-    </div>
-    <div class="swiper-slide bg-primary">
+      </div>
+      <div class="swiper-slide bg-primary">
         <div class="row justify-content-center">
           <div class="col-md-3">
             <div class="card card-lift--hover shadow border-0">
@@ -334,10 +334,10 @@
       direction: 'vertical',
       mousewheel: true,
       loop: false,
-      // autoplay: {
-      //   delay: 4000,
-      //   disableOnInteraction: true,
-      // },
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: true,
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
