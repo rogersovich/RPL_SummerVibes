@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('landing');
 });
+Route::get('/s', function () {
+    return view('swiper');
+});
