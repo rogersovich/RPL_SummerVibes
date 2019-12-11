@@ -184,6 +184,140 @@
           </div>
         </div>
       </div>
+      <div class="swiper-slide bg-primary">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="card mb-3 card-lift--hover shadow border-0" style="height:500px;">
+              <div class="card-body">                
+                <img src="{{ asset('assets/img/puding3.jpg') }}" class="pb-3 text-center" width="100%" alt="">
+                <h5 style="font-family: 'Oleo Script', cursive">Pudding</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-lift--hover shadow border-0" style="height:500px;">
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-3 py-3"><img src="{{ asset('assets/img/cake.png') }}" class="text-center" width="100%" alt=""></div>
+                </div>
+                <h5 class="text-center" style="font-family: 'Comfortaa', cursive">
+                  Aneka makanan manis
+                </h5>
+                <h3 class="text-center" style="font-family: 'Lobster', cursive">
+                  Our menus
+                </h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis perferendis officiis voluptatem velit aliquam recusandae iure excepturi. Laudantium recusandae beatae alias corporis ab rerum, accusamus itaque distinctio architecto quod.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit odit dolorem ad! Eum veritatis quia nemo sit reprehenderit illum laboriosam saepe eos sed quae culpa corrupti, ipsam optio deserunt.                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card mb-3 card-lift--hover shadow border-0" style="height:500px;">
+                <div class="card-body">                
+                  <img src="{{ asset('assets/img/stik.jpg') }}" class="pb-3" width="100%" alt="">
+                  <h5 style="font-family: 'Oleo Script', cursive">Stik ubi</h5>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-slide bg-primary">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="card card-lift--hover shadow border-0">
+              <div class="card-body" style="height:500px;">
+                <img src="{{ asset('assets/img/cireng.jpg') }}" class="pb-3" width="100%" alt="">
+                <h5 style="font-family: 'Oleo Script', cursive">Cireng boy</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-lift--hover shadow border-0">
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-3 py-3"><img src="{{ asset('assets/img/piring.png') }}" class="text-center" width="100%" alt=""></div>
+                </div>
+                <h5 class="text-center" style="font-family: 'Comfortaa', cursive">
+                  Aneka makanan lezat
+                </h5>
+                <h3 class="text-center" style="font-family: 'Lobster', cursive">
+                  Our menus
+                </h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis perferendis officiis voluptatem velit aliquam recusandae iure excepturi. Laudantium recusandae beatae alias corporis ab rerum, accusamus itaque distinctio architecto quod.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit odit dolorem ad! Eum veritatis quia nemo sit reprehenderit illum laboriosam saepe eos sed quae culpa corrupti, ipsam optio deserunt.                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card card-lift--hover shadow border-0">
+              <div class="card-body" style="height:500px;">
+                <img src="{{ asset('assets/img/cilok.jpg') }}" class="pb-3" width="100%" alt="">
+                <h5 style="font-family: 'Oleo Script', cursive">Cilok kacang</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="swiper-slide bg-primary">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="card card-lift--hover shadow border-0">
+              <div class="card-body justify-content-center" style="height:500px;">
+                <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt="">
+                <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt="">
+                <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt="">
+                <h5 style="font-family: 'Oleo Script', cursive">Sunrise</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card card-lift--hover shadow border-0">
+              <div class="card-body justify-content-center" style="height:500px;">
+                <img src="{{ asset('assets/img/sunsett.png') }}" class="pb-3 ml-3" width="50%" alt="">
+                {{-- <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt="">
+                <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt=""> --}}
+                <h5 style="font-family: 'Oleo Script', cursive">Sunset</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card card-lift--hover shadow border-0">
+              <div class="card-body justify-content-center" style="height:500px;">
+                <img src="{{ asset('assets/img/minumanijo.png') }}" class="pb-3 ml-3" width="50%" alt="">
+                {{-- <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt="">
+                <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt=""> --}}
+                <h5 style="font-family: 'Oleo Script', cursive">Greensea</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
