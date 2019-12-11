@@ -6,6 +6,7 @@
 
   <main id="fullpage">
     <div id="particles-js" style="height: 100vh !important;">
+    </div>
     <section class="section section3 bg-gradient-primary" >
       <div class="container">
         <div class="row">
