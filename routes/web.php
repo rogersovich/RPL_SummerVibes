@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/s', function () {
     return view('landing');
 });
-Route::get('/s', function () {
+Route::get('/', function () {
     return view('swiper');
 });

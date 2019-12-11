@@ -129,20 +129,6 @@
         continuousVertical:true,
 
     });
-
-    $("body").trigger($.Event("keypress", { keyCode: 40 }));
-
-    // $('#cek').on('click', function(){
-      
-    // })
-
-    // $('body').keydown(function(event){
-    //     var x = event.which || event.keyCode;
-    //     var e = $.Event('keydown', { keyCode: 40 });// right arrow key
-    //     console.log(e);
-
-    //   })
-    
   });
 </script>
 <script>
