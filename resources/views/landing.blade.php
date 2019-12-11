@@ -37,10 +37,17 @@
     </section>
     <section class="section section3 bg-gradient-primary" >
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 text-center">
-            <img class="floating" width="700" height="400" src="{{ asset('assets/img/laptop-frame.png') }}">
+        <div class="row mb-5">
+          <div class="col-md-2">
+            <img class="floating img-fluid" src="{{ asset('assets/img/icons8-dancing-96.png') }}">
           </div>
+          <div class="col-lg-8 col-md-8 text-center">
+            <img class="floating mb-5" width="500" height="300" src="{{ asset('assets/img/laptop-frame.png') }}">
+            <h1 class="display-1 text-white font-summmerVibes text-center">
+              Game coin coin
+            </h1>
+          </div>
+          <div class="col-md-2"></div
         </div>
       </div>
     </section>
@@ -198,7 +205,11 @@
 
     });
 
-    
+    $("body").trigger($.Event("keypress", { keyCode: 40 }));
+
+    // $('#cek').on('click', function(){
+      
+    // })
 
     // $('body').keydown(function(event){
     //     var x = event.which || event.keyCode;
