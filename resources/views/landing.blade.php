@@ -6,11 +6,27 @@
 
   <main id="fullpage">
     <div id="particles-js" style="height: 100vh !important;">
-    <section class="section section3 bg-gradient-primary" >
+    </div>
+    <section class="section" style="height: 100vh !important;">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <img class="floating img-fluid" src="{{ asset('assets/img/logo_dude2.png') }}">
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </section>
+    <section class="section bg-gradient-primary">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-2">
-            <img class="floating img-fluid" src="{{ asset('assets/img/icons8-dancing-96.png') }}">
+            <div class="text-center">
+              <img class="floating img-fluid" src="{{ asset('assets/img/icons8-dancing-96.png') }}">
+            </div>
+            <div class="text-center mt-5" style="transform: scaleX(-1);">
+              <img class="floating img-fluid"  src="{{ asset('assets/img/icons8-dancing-96.png') }}">
+            </div>
           </div>
           <div class="col-lg-8 col-md-8 text-center">
             <img class="floating mb-5" width="500" height="300" src="{{ asset('assets/img/laptop-frame.png') }}">
@@ -18,132 +34,70 @@
               Game coin coin
             </h1>
           </div>
-          <div class="col-md-2"></div
+          <div class="col-md-2">
+            <div class="text-center">
+              <img class="floating img-fluid" src="{{ asset('assets/img/icons8-dancing-96.png') }}">
+            </div>
+            <div class="text-center mt-5" style="transform: scaleX(-1);">
+              <img class="floating img-fluid"  src="{{ asset('assets/img/icons8-dancing-96.png') }}">
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section class="section bg-gradient-danger" >
       <div class="container">
         <div class="row mb-5">
-          <div class="col-lg-6 col-md-6">
-            <img class="img-fluid floating shadow" src="{{ asset('assets/img/table-horizontal-frame.png') }}">
+          <div class="col-lg-6 col-md-6 text-center">
+            <img class="floating" width="350" height="250" src="{{ asset('assets/img/table-horizontal-frame.png') }}">
           </div>
           <div class="col-lg-6 col-md-6">
-            <h2 class="display-1 text-white font-summmerVibes">
+            <h2 class="display-1 text-center text-white font-summmerVibes">
               Game kedip kedip
             </h2>
+            <div class="text-center mt-2">
+              <img class="floating img-fluid" src="{{ asset('assets/img/icons8-eye-96.png') }}">
+              <img class="floating img-fluid" src="{{ asset('assets/img/icons8-eye-96.png') }}">
+            </div>
+            <div class="text-center">
+              <img class="floating img-fluid" src="{{ asset('assets/img/icons8-game-controller-80.png') }}">
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section bg-gradient-info" >
+    <section class="section bg-success" >
       <div class="container">
         <div class="row pb-7">
-          <div class="col-md-3 text-center pt-5">
+          <div class="col-md-3 text-center">
             <h1 class="display-2 text-white font-weight-light font-summmerVibes">
               Filter Instgram
             </h1>
+            <div class="text-center mt-5">
+              <img class="floating" width="100" height="100" src="{{ asset('assets/img/icons8-sun-480.png') }}">
+              <img class="floating" width="50" height="50" src="{{ asset('assets/img/icons8-sun-480.png') }}">
+            </div>
           </div>
           <div class="col-lg-6 col-md-6 text-center">
-            <img class="img-fluid floating" src="{{ asset('assets/img/table-vertical-frame.png') }}">
+            <img class="floating" width="200" height="270" src="{{ asset('assets/img/table-vertical-frame.png') }}">
           </div>
-          <div class="col-md-3 pt-5">
-            <h1 class="display-2 text-white font-weight-light font-summmerVibes">
-              this filter can good
+          <div class="col-md-3">
+            <div class="text-center">
+              <img class="floating img-fluid" src="{{ asset('assets/img/icons8-spring-80.png') }}">
+              <img class="floating" width="50" height="50" src="{{ asset('assets/img/icons8-spring-80.png') }}">
+            </div>
+            <h1 class="display-2 mt-5 text-right text-dark font-weight-light font-summmerVibes">
+              Nama Filternya
             </h1>
           </div>
         </div>
       </div>
     </section>
     <section class="section bg-gradient-warning">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12">
-            <h3 class="text-center pb-5">Makanan</h3>
-            <div class="row row-grid">
-              <div class="col-lg-4">
-                <div class="card card-lift--hover shadow border-0">
-                  <div class="card-body py-5">
-                    <h6 class="text-primary text-uppercase text-center">Ini nama makanan</h6>
-                    <img src="{{ asset('assets/img/jacket1.jpg') }}" alt="" width="100%" srcset="">
-                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
-                    <div>
-                      <span class="badge badge-pill badge-primary">design</span>
-                      <span class="badge badge-pill badge-primary">system</span>
-                      <span class="badge badge-pill badge-primary">creative</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-4">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card card-lift--hover shadow border-0">
-                  <div class="card-body py-5">
-                    <h6 class="text-success text-uppercase">Build Something</h6>
-                    <img src="{{ asset('assets/img/jacket1.jpg') }}" alt="" width="100%" srcset="">
-                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
-                    <div>
-                      <span class="badge badge-pill badge-success">business</span>
-                      <span class="badge badge-pill badge-success">vision</span>
-                      <span class="badge badge-pill badge-success">success</span>
-                    </div>
-                    <a href="#" class="btn btn-success mt-4">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                  <h4>hahha</h4>
-                  <img src="{{ asset('assets/img/jacket1.jpg') }}" alt="" width="100%">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </section>
-    <section class="section img-fluid" style="background-image: url({{ asset('assets/img/spotify.png') }});">
-            <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12">
-            <h3 class="text-center pb-5">Minuman</h3>
-            <div class="row row-grid">
-              <div class="col-lg-4">
-                <div class="card card-lift--hover shadow border-0">
-                  <div class="card-body py-5">
-                    <h6 class="text-primary text-uppercase text-center">Ini nama makanan</h6>
-                    <img src="{{ asset('assets/img/jacket1.jpg') }}" alt="" width="100%" srcset="">
-                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
-                    <div>
-                      <span class="badge badge-pill badge-primary">design</span>
-                      <span class="badge badge-pill badge-primary">system</span>
-                      <span class="badge badge-pill badge-primary">creative</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-4">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card card-lift--hover shadow border-0">
-                  <div class="card-body py-5">
-                    <h6 class="text-success text-uppercase">Build Something</h6>
-                    <img src="{{ asset('assets/img/jacket1.jpg') }}" alt="" width="100%" srcset="">
-                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
-                    <div>
-                      <span class="badge badge-pill badge-success">business</span>
-                      <span class="badge badge-pill badge-success">vision</span>
-                      <span class="badge badge-pill badge-success">success</span>
-                    </div>
-                    <a href="#" class="btn btn-success mt-4">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                  <h4>hahha</h4>
-                  <img src="{{ asset('assets/img/jacket1.jpg') }}" alt="" width="100%">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="section bg-gradient-primary">
+            
     </section>
     <section class="section bg-white">
       <div class="container">
