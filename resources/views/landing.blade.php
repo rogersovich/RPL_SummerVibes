@@ -6,35 +6,6 @@
 
   <main id="fullpage">
     <div id="particles-js" style="height: 100vh !important;">
-
-    </div>
-    <section class="section section1" style="height: 100% !important;">
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6 text-center">
-          <img class="floating img-fluid" src="{{ asset('assets/img/logo_dude2.png') }}">
-          <button class="btn" id="cek">cek</button>
-        </div>
-        <div class="col-md-3"></div>
-      </div>
-    </section>
-    <section class="section section2" style="background-image: url({{ asset('assets/img/horr.png') }}); width: 100%; background-position: center; background-size: cover; ">
-      <div class="container">
-        <div class="row text-center justify-content-center">
-          <div class="col-md-1">
-            <img class="floating-lg" src="{{ asset('assets/img/icons8-pineapple-96.png') }}" width="100" height="100">
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-lg-8 col-md-8">
-            
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-1">
-            <img class="floating-lg" src="{{ asset('assets/img/icons8-watermelon-64.png') }}" width="100" height="100">
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="section section3 bg-gradient-primary" >
       <div class="container">
         <div class="row mb-5">
