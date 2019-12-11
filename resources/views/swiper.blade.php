@@ -50,7 +50,17 @@
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">
+        <section class="section section3 bg-gradient-primary" >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 text-center">
+                <img class="floating" width="700" height="400" src="{{ asset('assets/img/laptop-frame.png') }}">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <div class="swiper-slide">Slide 2</div>
       <div class="swiper-slide">Slide 3</div>
       <div class="swiper-slide">Slide 4</div>
@@ -72,6 +82,12 @@
   <script>
     var swiper = new Swiper('.swiper-container', {
       direction: 'vertical',
+      mousewheel: true,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
