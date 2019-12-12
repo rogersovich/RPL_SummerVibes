@@ -186,13 +186,13 @@
       </div>
       <div class="swiper-slide bg-primary">
         <div class="row justify-content-center">
-          <div class="col-md-3">
+          <div class="col-md-3 floating">
             <div class="card mb-3 card-lift--hover shadow border-0" style="height:500px;">
               <div class="card-body">                
                 <img src="{{ asset('assets/img/puding3.jpg') }}" class="pb-3 text-center" width="100%" alt="">
                 <h5 style="font-family: 'Oleo Script', cursive">Pudding</h5>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                  Puding adalah sebutan untuk hidangan penutup yang umumnya dibuat dari bahan-bahan yang direbus, dikukus, atau dipanggang. Puding ini enak banget gaada obat! Kalian harus cobain nih yang satu ini. Top!!
                 </p>
               </div>
             </div>
@@ -207,22 +207,22 @@
                   Aneka makanan manis
                 </h5>
                 <h3 class="text-center" style="font-family: 'Lobster', cursive">
-                  Our menus
+                  Limited edition!
                 </h3>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis perferendis officiis voluptatem velit aliquam recusandae iure excepturi. Laudantium recusandae beatae alias corporis ab rerum, accusamus itaque distinctio architecto quod.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit odit dolorem ad! Eum veritatis quia nemo sit reprehenderit illum laboriosam saepe eos sed quae culpa corrupti, ipsam optio deserunt.                  
+                    Disetiap makanan manis, pasti dong mengandung gula di dalamnya. Nah ternyata gula itu ga selamanya dipandang sebagai pemicu penyakit gula. Dalam penelitian, gula mengandung glukosa, dan glukosa merupakan ‘bahan bakar’ untuk kerja otak. Tak heran jika mengonsumsi makanan atau minuman manis dapat meningkatkan proses berpikir, konsentrasi, dan daya ingat seseorang. Jadi, ga perlu bingung lagi kalo mau jajan yang manis, tapi jangan berlebihan yaa!                  
                 </p>
+                <p>'Nu penting hayu, meluncur!!!'</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 floating">
               <div class="card mb-3 card-lift--hover shadow border-0" style="height:500px;">
                 <div class="card-body">                
                   <img src="{{ asset('assets/img/stik.jpg') }}" class="pb-3" width="100%" alt="">
                   <h5 style="font-family: 'Oleo Script', cursive">Stik ubi</h5>
                   <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                    Dari namanya, kita pasti tau dong bahan baku dari pembuatan snack ini? Ya, ubi. Ubi juga dipercaya dapat menurunkan berat badan lho! Nah jadi ini cocok banget ya buat kalian yang suka makan, tapi gamau gendut. Ayo dibeli!!
                   </p>
                 </div>
               </div>
@@ -232,13 +232,13 @@
 
     <div class="swiper-slide bg-primary">
         <div class="row justify-content-center">
-          <div class="col-md-3">
+          <div class="col-md-3 floating">
             <div class="card card-lift--hover shadow border-0">
               <div class="card-body" style="height:500px;">
                 <img src="{{ asset('assets/img/cireng.jpg') }}" class="pb-3" width="100%" alt="">
                 <h5 style="font-family: 'Oleo Script', cursive">Cireng boy</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                    Nah disini ada <i>cireng boy</i>, cirengnya enak banget! Cocok banget buat ngemil pas lagi gabut, atau lagi nongki sama temen-temen. Yang lebih mantepnya lagi, cireng ini ga cuma satu rasa, ada banyak rasa unik yang siap buat dicoba dan harganya cocok buat pelajar!!
                 </p>
               </div>
             </div>
@@ -262,13 +262,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 floating">
             <div class="card card-lift--hover shadow border-0">
               <div class="card-body" style="height:500px;">
                 <img src="{{ asset('assets/img/cilok.jpg') }}" class="pb-3" width="100%" alt="">
                 <h5 style="font-family: 'Oleo Script', cursive">Cilok kacang</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis accusantium voluptas laboriosam eligendi explicabo. Libero similique numquam, mollitia tenetur facere illo repudiandae iure, laudantium unde perferendis voluptatum fuga tempore.
+                  Makanan yang ga kalah enak nih, namanya cilok. Cilok ini pake bumbu kacang yang enak banget seriusan!! Rasa nya unik, ga akan kalian temuin lagi diluar sana, cuma disini!!! Selain itu harganya juga murah isinya meriah, ga kaya di restoran luar sana yang mahal karena tempatnya aja. 
                 </p>
               </div>
             </div>
@@ -277,7 +277,7 @@
       </div>
       <div class="swiper-slide bg-primary">
         <div class="row justify-content-center">
-          <div class="col-md-3">
+          <div class="col-md-3 floating">
             <div class="card card-lift--hover shadow border-0">
               <div class="card-body justify-content-center" style="height:500px;">
                 <img src="{{ asset('assets/img/sunset.png') }}" class="pb-3" width="30%" alt="">
@@ -290,7 +290,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 floating">
             <div class="card card-lift--hover shadow border-0">
               <div class="card-body justify-content-center" style="height:500px;">
                 <img src="{{ asset('assets/img/sunsett.png') }}" class="pb-3 ml-3" width="50%" alt="">
@@ -303,7 +303,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 floating">
             <div class="card card-lift--hover shadow border-0">
               <div class="card-body justify-content-center" style="height:500px;">
                 <img src="{{ asset('assets/img/minumanijo.png') }}" class="pb-3 ml-3" width="50%" alt="">
